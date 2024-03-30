@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --page-bg: #10002b;
+  --prim-col-1: #9d4edd;
+  --sec-col-2: #7b2cbf;
+}
+:root {
+  --bg-color: #10002b;
+  --card-color: #220043;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.page-5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--page-bg);
+  position: relative;
+}
+.test-title {
+  color: #c77dff !important;
+  width: 100%;
+  /* height: 200px; */
+  padding: 2rem 0px 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test-title h4 {
+  /* font-size: 3.6vw; */
+  font-size: 4em;
+  color: #c77dff !important;
+  font-weight: 400;
+  font-family: Moranga;
+}
+.swiper {
+  width: 50%;
+  height: 40%;
+  /* margin: 10px 0px; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #220043;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+}
+.slide-title {
+  width: 100%;
+  min-height: 30%;
+  display: flex;
+  /* border: 1px solid green; */
+}
+.pfp {
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.image-test {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-image: url("../testimonial-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+.name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.work {
+  font-size: 16px;
+  color: grey;
+  /* margin-top: 1px; */
+}
+.slide-mid {
+  width: 100%;
+  /* border: 1px solid orange; */
+  height: 50%;
+  padding: 0px 50px;
+}
+.slide-mid p {
+  font-size: 19px;
+  font-weight: 300;
+}
+.slide-rating {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-start;
+
+  /* border: 1px solid red; */
+}
+.slide-rating p {
+  margin-left: 30px;
+}
+.slide-rating span {
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

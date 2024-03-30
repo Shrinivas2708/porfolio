@@ -1,0 +1,192 @@
+@media (max-width: 850px) {
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+    gap: 0px;
+    height: 80%;
+    /* text-align: center; */
+  }
+  .text {
+    margin-left: 50px;
+    height: 90%;
+    padding-top: 130px;
+  }
+  .text p {
+    font-size: 3rem;
+  }
+  #element {
+    font-size: 3rem;
+  }
+  .resume-button {
+    height: 20%;
+  }
+  .resume-main {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scroll-down h4 {
+    bottom: 10%;
+  }
+  .abt-title h4 {
+    font-size: 9vw;
+  }
+  .right-abt {
+    display: none;
+  }
+  .left-abt {
+    width: 100%;
+  }
+  .abt-title {
+    padding: 4rem 0px 1rem 0px;
+  }
+  .left-abt p {
+    font-size: 4.5vw;
+    line-height: 2.7rem;
+  }
+  .project-title h4 {
+    font-size: 9vw;
+  }
+  .card {
+    width: 24rem;
+  }
+  .skills-title {
+    padding: 2rem 0px 1rem;
+  }
+  .progress-card {
+    width: 24rem;
+  }
+  .test-title h4 {
+    font-size: 3em;
+  }
+  .swiper {
+    width: 95%;
+    height: 50%;
+  }
+  .slide-title {
+    min-height: 25%;
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .work {
+    margin-left: 10px;
+  }
+  .image-test {
+    margin: 0px 10px;
+  }
+  .slide-rating {
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-rating p {
+    margin-left: 0px;
+  }
+  .footer-top {
+    flex-direction: column;
+  }
+  .thanks {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .thanks h4 {
+    font-size: 11vw;
+  }
+  .text-form h4 {
+    font-size: 25px;
+  }
+  .text-form {
+    align-items: flex-start;
+    padding-left: 35px;
+  }
+  .email-form input,
+  textarea {
+    font-size: 13px;
+    width: 60%;
+  }
+  .email-form input,
+  textarea {
+    padding: 5px 15px;
+  }
+  .btn-send {
+    height: 35px;
+    width: 160px;
+  }
+  .main-form form {
+    padding-top: 40px;
+  }
+  .social {
+    width: 100%;
+    height: 35%;
+  }
+  .social h4 {
+    font-size: 25px;
+    height: 20%;
+  }
+  .socials {
+    flex-direction: column;
+  }
+  .icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 7px;
+  }
+  .icons {
+    height: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .social h4 {
+    height: 40%;
+  }
+  .hire {
+    width: 100%;
+    gap: 10px;
+  }
+  .email-hire img,
+  .upwork img,
+  .fiverr img {
+    width: 30px;
+    height: 30px;
+  }
+  .email-hire {
+    height: 25%;
+    width: 50%;
+    padding: 8px 8px;
+  }
+  .upwork {
+    height: 25%;
+    width: 50%;
+    padding: 15px 10px;
+  }
+  .email-hire h4 {
+    font-size: 2.8vw;
+  }
+
+  .upwork h4 {
+    font-size: 3vw;
+    padding: 0px 10px 0px 5px;
+  }
+  .fiverr {
+    padding: 5px 10px;
+    height: 25%;
+    width: 50%;
+  }
+  .fiverr h4 {
+    font-size: 3vw;
+  }
+  .copy {
+    font-size: 15px;
+    /* margin-top: 10px; */
+    padding-top: 15px;
+  }
+  .tw {
+    background-color: white;
+  }
+}

@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --page-bg: #10002b;
+  --prim-col-1: #9d4edd;
+  --sec-col-2: #7b2cbf;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page-6 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--page-bg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.footer-top {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.form {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.thanks {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.thanks h4 {
+  font-size: 5vw;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.thanks h4:nth-child(1) {
+  padding-left: 30px;
+}
+.thanks h4:nth-child(2) {
+  text-align: end;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.text-form {
+  height: 20%;
+  /* padding-left: 20px; */
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+.text-form h4 {
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+  font-weight: 400;
+}
+.form-review {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: flex-end; */
+}
+.form-review h4 {
+  font-size: 2.3vw;
+  margin: 10px 0px;
+}
+.form-review h4:nth-child(2) {
+  text-align: left;
+  padding-left: 30px;
+}
+.btn-review {
+  margin-left: 30px !important;
+}
+.main-form {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.main-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-top: 30px;
+}
+.email-form input,
+textarea {
+  text-decoration: none;
+  border: none;
+  width: 50%;
+  appearance: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  font-size: 1.3vw;
+}
+.email-form input {
+  padding: 15px;
+}
+#message {
+  height: 40%;
+}
+.btn-send {
+  /* appearance: none; */
+  /* background: none;
+  border: none;
+  outline: none;
+  box-shadow: none; */
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  background-color: var(--prim-col-1);
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+}
+.footer-bottom {
+  width: 100%;
+  min-height: 40%;
+  /* border: 2px solid aqua; */
+  background-color: #0a001c;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.socials {
+  height: 80%;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.copy {
+  height: 20%;
+  /* border: 1px solid aqua; */
+  color: rgb(164, 162, 162);
+  font-weight: 400;
+}
+.copy h4 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.hire {
+  width: 50%;
+  /* border: 1px solid salmon; */
+}
+.social {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  align-items: center;
+}
+.social h4 {
+  height: 30%;
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.icons img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.icons img:nth-child(2) {
+  background-color: white;
+  /* border-radius: 4px; */
+}
+.hire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.email-hire {
+  /* width: 25%; */
+  width: 35%;
+  height: 25%;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.email-hire img {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 55%;
+}
+.email-hire h4 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  padding: 0px 10px;
+  font-size: 0.9vw;
+}
+.upwork {
+  width: 35%;
+  height: 25%;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  background-color: #1d6400;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.upwork img {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 55%;
+}
+.upwork h4 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  padding: 0px 10px;
+  font-size: 1vw;
+}
+.fiverr {
+  height: 25%;
+  /* width: 40%; */
+  width: 35%;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  padding: 0px 10px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #039027;
+}
+.fiverr img {
+  width: 40px;
+  height: 40px;
+  /* background-color: white; */
+  border-radius: 55%;
+}
+.fiverr h4 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+
+  font-size: 1vw;
+  padding: 0px 10px;
+}
+.tw {
+  background-color: white;
+}
